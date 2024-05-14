@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1093</width>
+    <height>702</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #adb5bd;</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>240</y>
+     <width>1041</width>
+     <height>631</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #495057;</string>
+   </property>
+   <widget class="QWidget" name="TitleWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>20</y>
+      <width>311</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #8d99ae;</string>
+    </property>
+    <widget class="QWidget" name="Titlewidget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>291</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#ffffff;;
+text-decoration: underline;
+font: 25 16pt &quot;Bahnschrift Light&quot;;
+</string>
+     </property>
+     <widget class="QLabel" name="ProjectNameLabel">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>0</y>
+        <width>241</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;SimSun-ExtB&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>Multi Feature AI</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="QuoteAndJokeWidget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>291</width>
+       <height>421</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #8d99ae;
+font: 12pt &quot;Myanmar Text&quot;;
+</string>
+     </property>
+     <widget class="QLabel" name="Jokelabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>170</y>
+        <width>55</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Joke:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Quotelabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Quote:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="QuoteTextField">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>261</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 9pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Motivation Text</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="JokeTextArea">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>200</y>
+        <width>251</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Joke </string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Authorlabel">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>150</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 7pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Author</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>510</y>
+       <width>311</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 16pt &quot;SimSun-ExtB&quot;;
+</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="LoginuserCrediential">
+        <property name="placeholderText">
+         <string>Username</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="BTNlogin">
+        <property name="styleSheet">
+         <string notr="true">background-color: #edf2f4;
+font: 75 italic 15pt &quot;Book Antiqua&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Login</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="FaceDetectionWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>20</y>
+      <width>311</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>380</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #8d99ae;</string>
+    </property>
+    <widget class="QWidget" name="ImageCaptureArea" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>291</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(162, 162, 162);</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLabel" name="ImageDisplayArea">
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>D:/Coding/Project/#Project Designs Equipment/Image/15437639.jpg</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="SeriviceandGreetArea" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>260</y>
+       <width>291</width>
+       <height>311</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;
+background-color: #8d99ae;</string>
+     </property>
+     <widget class="QLabel" name="TimeandIntoText">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>50</y>
+        <width>269</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+
+background-color: #8d99ae;
+color:#ffffff;</string>
+      </property>
+      <property name="text">
+       <string>Hi, I'm K what Can I do For You Sir, Would Like to Chat or Go to Window</string>
+      </property>
+      <property name="wordWrap">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BTNNewUser">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>181</y>
+        <width>269</width>
+        <height>34</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #edf2f4;
+font: 75 italic 15pt &quot;Book Antiqua&quot;;</string>
+      </property>
+      <property name="text">
+       <string>New User Register</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="VerifyBTN">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>225</y>
+        <width>269</width>
+        <height>33</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #edf2f4;
+font: 75 italic 15pt &quot;Book Antiqua&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Verification</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BTN_gottoWindow">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>268</y>
+        <width>269</width>
+        <height>33</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #edf2f4;
+font: 75 italic 15pt &quot;Book Antiqua&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Go To Window</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BTN_services">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>140</y>
+        <width>269</width>
+        <height>33</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #edf2f4;
+font: 75 italic 15pt &quot;Book Antiqua&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Services</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="GreetingText">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>0</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Greeting</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="ChatBotOuterWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>341</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #8d99ae;</string>
+    </property>
+    <widget class="QWidget" name="ChattingAreaWidget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>90</y>
+       <width>321</width>
+       <height>421</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(235, 235, 235);</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QTextEdit" name="TextAreaofChat">
+        <property name="styleSheet">
+         <string notr="true">background-color: #8d99ae;
+font: 12pt &quot;Myanmar Text&quot;;
+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="SendingChatToBotText">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(235, 235, 235);
+font: 25 italic 14pt &quot;Segoe UI Light&quot;;</string>
+        </property>
+        <property name="placeholderText">
+         <string>Type Here To Chat</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QPushButton" name="BTM_For_Send_Msg">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>520</y>
+       <width>321</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #edf2f4;
+font: 75 italic 15pt &quot;Book Antiqua&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Let's Chat</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="ChatlabelDesignWidget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>321</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#ffffff;;
+text-decoration: underline;
+font: 25 16pt &quot;Bahnschrift Light&quot;;
+</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="LeftChatBotTextImg">
+        <property name="maximumSize">
+         <size>
+          <width>80</width>
+          <height>80</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>D:/Coding/Project/#Project Designs Equipment/PNG/PNG (49).png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+        <property name="wordWrap">
+         <bool>true</bool>
+        </property>
+        <property name="margin">
+         <number>0</number>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="ChatLabelName">
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 13pt &quot;SimSun-ExtB&quot;;
+</string>
+        </property>
+        <property name="text">
+         <string>CHAT BOT</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="RightChatBotTextImg">
+        <property name="maximumSize">
+         <size>
+          <width>80</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>D:/Coding/Project/#Project Designs Equipment/PNG/PNG (50).png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

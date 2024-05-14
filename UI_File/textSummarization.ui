@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>896</width>
+    <height>690</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #adb5bd;</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>911</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;SimSun-ExtB&quot;;
+background-color:#ffffff;;
+text-decoration: underline;</string>
+   </property>
+   <property name="text">
+    <string>Text Summarization</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="entertext">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>881</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#ffffff;
+font: 12pt &quot;Segoe Script&quot;;
+</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textsummerizationinputfield">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>410</y>
+     <width>881</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#ffffff;
+font: 12pt &quot;Segoe Script&quot;;
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="llmlabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>640</y>
+     <width>881</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #edf2f4;
+font: 75 italic 12pt &quot;Book Antiqua&quot;;
+color:rgb(113, 113, 113)</string>
+   </property>
+   <property name="text">
+    <string>Hi There Enter your Text In input Field for Text Summarization, By default 20 Tokens Will Be Genrated </string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>340</y>
+     <width>881</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#ffffff;
+font: 12pt &quot;Segoe Script&quot;;
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">background-color: #edf2f4;
+font: 75 italic 15pt &quot;Book Antiqua&quot;;
+color:rgb(113, 113, 113)</string>
+      </property>
+      <property name="text">
+       <string>Max Tokens:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="textsummerizationlenght">
+      <property name="styleSheet">
+       <string notr="true">background-color: #edf2f4;
+font: 75 italic 15pt &quot;Book Antiqua&quot;;
+color:rgb(113, 113, 113)</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="BTNtextsummarization">
+      <property name="styleSheet">
+       <string notr="true">background-color: #edf2f4;
+font: 75 italic 15pt &quot;Book Antiqua&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Text Summarization</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

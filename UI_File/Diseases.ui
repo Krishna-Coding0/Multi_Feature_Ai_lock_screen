@@ -1,0 +1,1826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1688</width>
+    <height>716</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>60</y>
+     <width>1682</width>
+     <height>655</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;
+
+background-color: #8d99ae;
+color:#ffffff;</string>
+   </property>
+   <widget class="QCheckBox" name="checkBox131">
+    <property name="geometry">
+     <rect>
+      <x>1427</x>
+      <y>331</y>
+      <width>164</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>yellow_crust_ooze</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox128">
+    <property name="geometry">
+     <rect>
+      <x>1427</x>
+      <y>235</y>
+      <width>167</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>inflammatory_nails</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BTNpredict">
+    <property name="geometry">
+     <rect>
+      <x>1430</x>
+      <y>500</y>
+      <width>244</width>
+      <height>49</height>
+     </rect>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>6000</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #edf2f4;
+font: 75 italic 15pt &quot;Book Antiqua&quot;;
+color:rgb(113, 113, 113)</string>
+    </property>
+    <property name="text">
+     <string>Predict Diseases</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox123">
+    <property name="geometry">
+     <rect>
+      <x>1427</x>
+      <y>75</y>
+      <width>171</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>foul_smell_of_urine</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox129">
+    <property name="geometry">
+     <rect>
+      <x>1427</x>
+      <y>267</y>
+      <width>73</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>blister</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox122">
+    <property name="geometry">
+     <rect>
+      <x>1427</x>
+      <y>43</y>
+      <width>169</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>bladder_discomfort</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox126">
+    <property name="geometry">
+     <rect>
+      <x>1427</x>
+      <y>171</y>
+      <width>163</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>silver_like_dusting</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox127">
+    <property name="geometry">
+     <rect>
+      <x>1427</x>
+      <y>203</y>
+      <width>181</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>small_dents_in_nails</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox124">
+    <property name="geometry">
+     <rect>
+      <x>1427</x>
+      <y>107</y>
+      <width>212</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>continuous_feel_of_urine</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox130">
+    <property name="geometry">
+     <rect>
+      <x>1427</x>
+      <y>299</y>
+      <width>196</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>red_sore_around_nose</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox121">
+    <property name="geometry">
+     <rect>
+      <x>1427</x>
+      <y>11</y>
+      <width>86</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>scurring</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox125">
+    <property name="geometry">
+     <rect>
+      <x>1427</x>
+      <y>139</y>
+      <width>118</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>skin_peeling</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox118">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>555</y>
+      <width>124</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>unsteadiness</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox116">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>491</y>
+      <width>176</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>movement_stiffness</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox104">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>107</y>
+      <width>114</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>brittle_nails</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox114">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>427</y>
+      <width>137</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>swelling_joints</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox109">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>267</y>
+      <width>139</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>slurred_speech</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox105">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>139</y>
+      <width>180</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>swollen_extremeties</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox111">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>331</y>
+      <width>205</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>drying_and_tingling_lips</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox102">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>43</y>
+      <width>182</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>puffy_face_and_eyes</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox115">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>459</y>
+      <width>141</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>painful_walking</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox112">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>363</y>
+      <width>102</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>knee_pain</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox101">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>11</y>
+      <width>128</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>mood_swings</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox113">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>395</y>
+      <width>131</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>hip_joint_pain</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox119">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>587</y>
+      <width>163</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>pus_filled_pimples</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox120">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>619</y>
+      <width>109</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>blackheads</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox103">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>75</y>
+      <width>151</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>enlarged_thyroid</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox117">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>523</y>
+      <width>183</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>spinning_movements</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox106">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>171</y>
+      <width>203</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>abnormal_menstruation</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox107">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>203</y>
+      <width>161</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>muscle_weakness</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox108">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>235</y>
+      <width>80</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>anxiety</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox110">
+    <property name="geometry">
+     <rect>
+      <x>1215</x>
+      <y>299</y>
+      <width>113</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>palpitations</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox87">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>203</y>
+      <width>127</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>loss_of_smell</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox93">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>395</y>
+      <width>156</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>irritation_in_anus</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox97">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>523</y>
+      <width>195</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>swollen_blood_vessels</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox100">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>619</y>
+      <width>192</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>cold_hands_and_feets</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox91">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>331</y>
+      <width>175</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>pain_in_anal_region</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox84">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>107</y>
+      <width>138</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>sinus_pressure</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox89">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>267</y>
+      <width>128</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>rusty_sputum</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox86">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>171</y>
+      <width>107</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>congestion</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox92">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>363</y>
+      <width>120</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>bloody_stool</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox90">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>299</y>
+      <width>261</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>pain_during_bowel_movements</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox88">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>235</y>
+      <width>142</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>fast_heart_rate</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox83">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>75</y>
+      <width>151</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>redness_of_eyes</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox95">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>459</y>
+      <width>85</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>bruising</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox81">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>11</y>
+      <width>153</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>blood_in_sputum</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox99">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>587</y>
+      <width>117</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>weight_gain</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox98">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>555</y>
+      <width>212</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>prominent_veins_on_calf</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox96">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>491</y>
+      <width>122</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>swollen_legs</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox82">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>43</y>
+      <width>144</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>throat_irritation</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox85">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>139</y>
+      <width>112</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>runny_nose</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox94">
+    <property name="geometry">
+     <rect>
+      <x>947</x>
+      <y>427</y>
+      <width>81</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>cramps</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox64">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>107</y>
+      <width>185</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>red_spots_over_body</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox61">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>11</y>
+      <width>104</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>mild_fever</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox73">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>395</y>
+      <width>67</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>coma</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox63">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>75</y>
+      <width>84</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>malaise</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox62">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>43</y>
+      <width>189</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>swelled_lymph_nodes</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox72">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>363</y>
+      <width>246</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>receiving_unsterile_injections</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox67">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>203</y>
+      <width>117</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>constipation</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox66">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>171</y>
+      <width>192</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>pain_behind_the_eyes</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox79">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>587</y>
+      <width>130</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>fluid_overload</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox74">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>427</y>
+      <width>161</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>stomach_bleeding</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox78">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>555</y>
+      <width>182</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>alcohol_consumption</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox76">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>491</y>
+      <width>182</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>swelling_of_stomach</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox80">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>619</y>
+      <width>81</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>phlegm</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox70">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>299</y>
+      <width>120</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>yellow_urine</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox71">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>331</y>
+      <width>233</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>receiving_blood_transfusion</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox68">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>235</y>
+      <width>173</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>toxic_look_(typhos)</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox77">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>523</y>
+      <width>200</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>distention_of_abdomen</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox69">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>267</y>
+      <width>101</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>belly_pain</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox75">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>459</y>
+      <width>163</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>acute_liver_failure</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox65">
+    <property name="geometry">
+     <rect>
+      <x>694</x>
+      <y>139</y>
+      <width>100</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>joint_pain</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox56">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>491</y>
+      <width>238</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>weakness_on_one_bodySide</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox55">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>459</y>
+      <width>101</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>neck_pain</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox50">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>299</y>
+      <width>107</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>depression</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox58">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>555</y>
+      <width>105</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>dark_urine</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox45">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>139</y>
+      <width>98</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>headache</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox52">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>363</y>
+      <width>172</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>visual_disturbances</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox42">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>43</y>
+      <width>138</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>breathlessness</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox47">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>203</y>
+      <width>145</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>loss_of_balance</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox49">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>267</y>
+      <width>98</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>stiff_neck</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox59">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>587</y>
+      <width>94</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>sweating</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox44">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>107</y>
+      <width>144</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>mucoid_sputum</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox60">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>619</y>
+      <width>119</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>muscle_pain</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox43">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>75</y>
+      <width>130</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>family_history</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox51">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>331</y>
+      <width>97</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>irritability</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox41">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>11</y>
+      <width>97</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>diarrhoea</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox57">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>523</y>
+      <width>164</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>altered_sensorium</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox54">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>427</y>
+      <width>170</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>weakness_in_limbs</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox53">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>395</y>
+      <width>101</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>back_pain</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox46">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>171</y>
+      <width>94</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>dizziness</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox48">
+    <property name="geometry">
+     <rect>
+      <x>449</x>
+      <y>235</y>
+      <width>189</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>lack_of_concentration</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox35">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>459</y>
+      <width>80</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>obesity</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox30">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>299</y>
+      <width>115</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>weight_loss</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox38">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>555</y>
+      <width>85</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>polyuria</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox36">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>491</y>
+      <width>158</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>excessive_hunger</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox33">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>395</y>
+      <width>182</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>irregular_sugar_level</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox34">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>427</y>
+      <width>241</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>blurred_and_distorted_vision</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox37">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>523</y>
+      <width>168</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>increased_appetite</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox28">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>235</y>
+      <width>198</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>extra_marital_contacts</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox26">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>171</y>
+      <width>161</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>patches_in_throat</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox25">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>139</y>
+      <width>146</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>muscle_wasting</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox32">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>363</y>
+      <width>87</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>lethargy</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox24">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>107</y>
+      <width>107</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>indigestion</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox22">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>43</y>
+      <width>163</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>passage_of_gases</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox27">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>203</y>
+      <width>104</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>high_fever</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox29">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>267</y>
+      <width>78</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>fatigue</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox39">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>587</y>
+      <width>122</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>sunken_eyes</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox40">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>619</y>
+      <width>114</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>dehydration</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox23">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>75</y>
+      <width>141</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>internal_itching</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox31">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>331</y>
+      <width>119</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>restlessness</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox21">
+    <property name="geometry">
+     <rect>
+      <x>201</x>
+      <y>11</y>
+      <width>161</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>spotting_urination</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox16">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>491</y>
+      <width>80</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>nausea</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox3">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>75</y>
+      <width>183</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>nodal_skin_eruptions</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox18">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>555</y>
+      <width>143</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>abdominal_pain</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox10">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>299</y>
+      <width>75</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>acidity</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox4">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>107</y>
+      <width>173</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>dischromic_patches</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox19">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>587</y>
+      <width>162</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>yellowing_of_eyes</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox17">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>523</y>
+      <width>149</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>loss_of_appetite</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox20">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>619</y>
+      <width>170</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>burning_micturition</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox15">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>459</y>
+      <width>133</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>yellowish_skin</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox8">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>235</y>
+      <width>178</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>watering_from_eyes</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox9">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>267</y>
+      <width>130</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>stomach_pain</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox13">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>395</y>
+      <width>71</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>cough</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox12">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>363</y>
+      <width>90</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>vomiting</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox1">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>11</y>
+      <width>76</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>itching</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox5">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>139</y>
+      <width>181</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>continuous_sneezing</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox7">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>203</y>
+      <width>64</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>chills</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox2">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>43</y>
+      <width>97</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>skin_rash</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox11">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>331</y>
+      <width>158</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ulcers_on_tongue</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox14">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>427</y>
+      <width>107</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>chest_pain</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox6">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>171</y>
+      <width>93</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>shivering</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DetailLabel">
+    <property name="geometry">
+     <rect>
+      <x>1440</x>
+      <y>380</y>
+      <width>221</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 14pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Check Those Problems Which Are Felling Right Now </string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="DiseasesLabel">
+    <property name="geometry">
+     <rect>
+      <x>1440</x>
+      <y>580</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Diseases :</string>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>1671</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#ffffff;;
+text-decoration: underline;
+font: 25 16pt &quot;Bahnschrift Light&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Diseases Prediction</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1095</width>
+    <height>692</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #adb5bd;</string>
+  </property>
+  <widget class="QWidget" name="BackgraoundLoginWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>1051</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #495057;</string>
+   </property>
+   <widget class="QWidget" name="OpenCvArea" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>411</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #8d99ae;</string>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLabel" name="FacedetCap">
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>D:/Coding/Project/#Project Designs Equipment/Image/15437639.jpg</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="RegisterformWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>70</y>
+      <width>591</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #8d99ae;
+font: 25 11pt &quot;Bahnschrift Light SemiCondensed&quot;;</string>
+    </property>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>10</y>
+       <width>551</width>
+       <height>461</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:#ffffff;
+font: 16pt &quot;Segoe Script&quot;;
+</string>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>11</y>
+        <width>90</width>
+        <height>39</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="text">
+       <string>Name:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="NameField">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>11</y>
+        <width>290</width>
+        <height>39</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>80</y>
+        <width>100</width>
+        <height>39</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Email:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Emailfield">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>80</y>
+        <width>290</width>
+        <height>39</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>149</y>
+        <width>112</width>
+        <height>39</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Gender:</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>149</y>
+        <width>290</width>
+        <height>39</height>
+       </rect>
+      </property>
+      <widget class="QRadioButton" name="MaleRadioBTN">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>1</y>
+         <width>94</width>
+         <height>46</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Male</string>
+       </property>
+      </widget>
+      <widget class="QRadioButton" name="FemaleRadioBTN">
+       <property name="geometry">
+        <rect>
+         <x>154</x>
+         <y>1</y>
+         <width>124</width>
+         <height>46</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Female</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>218</y>
+        <width>229</width>
+        <height>39</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Phone Number:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Phonefield">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>218</y>
+        <width>290</width>
+        <height>39</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>280</y>
+        <width>117</width>
+        <height>39</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Address:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Addressfield">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>280</y>
+        <width>290</width>
+        <height>39</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="geometry">
+       <rect>
+        <x>11</x>
+        <y>390</y>
+        <width>529</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: #8d99ae;</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="Registerlabel">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+
+background-color: #8d99ae;
+color:#ffffff;</string>
+         </property>
+         <property name="inputMethodHints">
+          <set>Qt::ImhExclusiveInputMask</set>
+         </property>
+         <property name="text">
+          <string>Please Fill All The Details</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>340</y>
+        <width>171</width>
+        <height>39</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Username:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="UsernameField">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>340</y>
+        <width>290</width>
+        <height>39</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QPushButton" name="BTNregistration">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>480</y>
+       <width>551</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #edf2f4;
+font: 75 italic 15pt &quot;Book Antiqua&quot;;
+color:rgb(113, 113, 113)</string>
+     </property>
+     <property name="text">
+      <string>Register</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>530</y>
+      <width>411</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #8d99ae;</string>
+    </property>
+    <widget class="QPushButton" name="BTNupload">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>391</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #edf2f4;
+font: 75 italic 15pt &quot;Book Antiqua&quot;;
+color:rgb(113, 113, 113)</string>
+     </property>
+     <property name="text">
+      <string>Upload Pic</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>1011</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#ffffff;;
+font: 25 16pt &quot;Bahnschrift Light&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Registration</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Goback">
+    <property name="geometry">
+     <rect>
+      <x>910</x>
+      <y>20</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+background-color: #8d99ae;
+color:#ffffff;</string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
